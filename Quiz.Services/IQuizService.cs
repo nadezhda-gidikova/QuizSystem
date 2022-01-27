@@ -12,6 +12,10 @@ namespace Quiz.Services
         int Add(string Title);
 
         public QuizViewModel GetQuizById(int quizId);
+
+        IEnumerable<UserQuizViewModel> GetQuizesByUserName(string userName);
+
+        void StartQuiz(string userName, int quizId);
     }
 
 

@@ -164,6 +164,65 @@
         }
       }
     },
+    "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Services\\Quiz.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Services\\Quiz.Services.csproj",
+        "projectName": "Quiz.Services",
+        "projectPath": "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Services\\Quiz.Services.csproj",
+        "packagesPath": "C:\\Users\\Nadezhda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nadezhda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugget.org": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Data\\Quiz.Data.csproj": {
+                "projectPath": "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Data\\Quiz.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Web\\Quiz.Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -191,6 +250,9 @@
             "projectReferences": {
               "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Data\\Quiz.Data.csproj": {
                 "projectPath": "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Data\\Quiz.Data.csproj"
+              },
+              "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Services\\Quiz.Services.csproj": {
+                "projectPath": "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Services\\Quiz.Services.csproj"
               }
             }
           }

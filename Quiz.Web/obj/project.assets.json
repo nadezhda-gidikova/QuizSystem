@@ -1959,6 +1959,19 @@
         "runtime": {
           "bin/placeholder/Quiz.Models.dll": {}
         }
+      },
+      "Quiz.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Quiz.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Quiz.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Quiz.Services.dll": {}
+        }
       }
     }
   },
@@ -6921,6 +6934,11 @@
       "type": "project",
       "path": "../Quiz.Models/Quiz.Models.csproj",
       "msbuildProject": "../Quiz.Models/Quiz.Models.csproj"
+    },
+    "Quiz.Services/1.0.0": {
+      "type": "project",
+      "path": "../Quiz.Services/Quiz.Services.csproj",
+      "msbuildProject": "../Quiz.Services/Quiz.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6931,7 +6949,8 @@
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.13",
-      "Quiz.Data >= 1.0.0"
+      "Quiz.Data >= 1.0.0",
+      "Quiz.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6964,6 +6983,9 @@
           "projectReferences": {
             "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Data\\Quiz.Data.csproj": {
               "projectPath": "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Data\\Quiz.Data.csproj"
+            },
+            "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Services\\Quiz.Services.csproj": {
+              "projectPath": "C:\\Users\\Nadezhda\\source\\repos\\Quiz\\Quiz.Services\\Quiz.Services.csproj"
             }
           }
         }

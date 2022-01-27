@@ -397,3 +397,7 @@ C:\Users\Nadezhda\source\repos\Quiz\Quiz.Web\bin\Debug\net5.0\refs\Microsoft.Ext
 C:\Users\Nadezhda\source\repos\Quiz\Quiz.Web\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Nadezhda\source\repos\Quiz\Quiz.Web\bin\Debug\net5.0\refs\System.Text.Encodings.Web.dll
 C:\Users\Nadezhda\source\repos\Quiz\Quiz.Web\bin\Debug\net5.0\refs\System.Text.Json.dll
+C:\Users\Nadezhda\source\repos\Quiz\Quiz.Web\bin\Debug\net5.0\Quiz.Services.dll
+C:\Users\Nadezhda\source\repos\Quiz\Quiz.Web\bin\Debug\net5.0\Quiz.Services.pdb
+C:\Users\Nadezhda\source\repos\Quiz\Quiz.Web\obj\Debug\net5.0\Razor\Views\Quiz\Results.cshtml.g.cs
+C:\Users\Nadezhda\source\repos\Quiz\Quiz.Web\obj\Debug\net5.0\Razor\Views\Quiz\Test.cshtml.g.cs
