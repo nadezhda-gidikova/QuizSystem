@@ -1,0 +1,595 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff31507\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi31507\deflang1033\deflangfe1033\themelang1033\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f34\fbidi \froman\fcharset1\fprq2{\*\panose 02040503050406030204}Cambria Math;}
+{\f39\fbidi \fswiss\fcharset204\fprq2{\*\panose 020f0502020204030204}Calibri;}{\flomajor\f31500\fbidi \froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbmajor\f31501\fbidi \froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhimajor\f31502\fbidi \fswiss\fcharset204\fprq2{\*\panose 020f0302020204030204}Calibri Light;}
+{\fbimajor\f31503\fbidi \froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\flominor\f31504\fbidi \froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbminor\f31505\fbidi \froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhiminor\f31506\fbidi \fswiss\fcharset204\fprq2{\*\panose 020f0502020204030204}Calibri;}
+{\fbiminor\f31507\fbidi \froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f42\fbidi \froman\fcharset0\fprq2 Times New Roman;}{\f40\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\f43\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f44\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f45\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f46\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\f47\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f48\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f432\fbidi \fswiss\fcharset0\fprq2 Calibri;}{\f430\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}
+{\f433\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\f434\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}{\f435\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}{\f436\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}
+{\f437\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\f438\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\flomajor\f31510\fbidi \froman\fcharset0\fprq2 Times New Roman;}{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fdbmajor\f31520\fbidi \froman\fcharset0\fprq2 Times New Roman;}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhimajor\f31530\fbidi \fswiss\fcharset0\fprq2 Calibri Light;}
+{\fhimajor\f31528\fbidi \fswiss\fcharset238\fprq2 Calibri Light CE;}{\fhimajor\f31531\fbidi \fswiss\fcharset161\fprq2 Calibri Light Greek;}{\fhimajor\f31532\fbidi \fswiss\fcharset162\fprq2 Calibri Light Tur;}
+{\fhimajor\f31533\fbidi \fswiss\fcharset177\fprq2 Calibri Light (Hebrew);}{\fhimajor\f31534\fbidi \fswiss\fcharset178\fprq2 Calibri Light (Arabic);}{\fhimajor\f31535\fbidi \fswiss\fcharset186\fprq2 Calibri Light Baltic;}
+{\fhimajor\f31536\fbidi \fswiss\fcharset163\fprq2 Calibri Light (Vietnamese);}{\fbimajor\f31540\fbidi \froman\fcharset0\fprq2 Times New Roman;}{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\flominor\f31550\fbidi \froman\fcharset0\fprq2 Times New Roman;}{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbminor\f31560\fbidi \froman\fcharset0\fprq2 Times New Roman;}
+{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhiminor\f31570\fbidi \fswiss\fcharset0\fprq2 Calibri;}{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}
+{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}{\fhiminor\f31573\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}
+{\fhiminor\f31574\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\fhiminor\f31576\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}
+{\fbiminor\f31580\fbidi \froman\fcharset0\fprq2 Times New Roman;}{\fbiminor\f31578\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;}{\*\defchp \fs22\loch\af31506\hich\af31506\dbch\af31505 }{\*\defpap \ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\upr{\stylesheet{
+\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 
+\snext0 \sqformat \spriority0 Normal;}{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 \snext11 \ssemihidden \sunhideused 
+Normal Table;}}{\*\ud\uc0{\stylesheet{\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 
+\fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 \snext0 \sqformat \spriority0 Normal;}{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 \snext11 \ssemihidden \sunhideused 
+Normal Table;}}}}{\*\rsidtbl \rsid1392093\rsid8587537}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\author Nadezhda}{\operator Nadezhda}
+{\creatim\yr2022\mo1\dy28\hr18\min55}{\revtim\yr2022\mo1\dy28\hr18\min55}{\version2}{\edmins0}{\nofpages14}{\nofwords959}{\nofchars5468}{\nofcharsws6415}{\vern7}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}
+\paperw12240\paperh15840\margl1417\margr1417\margt1417\margb1417\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701
+\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\rsidroot1392093 \fet0{\*\wgrffmtfilter 2450}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid1392093 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 
+\fs22\lang1033\langfe1033\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af31507 \ltrch\fcs0 \insrsid1392093 \hich\af31506\dbch\af31505\loch\f31506 Skip to content
+\par \hich\af31506\dbch\af31505\loch\f31506 \hich\f31506 Search or jump to\'85
+\par \hich\af31506\dbch\af31505\loch\f31506 Pull requests
+\par \hich\af31506\dbch\af31505\loch\f31506 Issues
+\par \hich\af31506\dbch\af31505\loch\f31506 Marketplace
+\par \hich\af31506\dbch\af31505\loch\f31506 Explore
+\par \hich\af31506\dbch\af31505\loch\f31506  
+\par \hich\af31506\dbch\af31505\loch\f31506 @nadezhda-gidikova 
+\par \hich\af31506\dbch\af31505\loch\f31506 NikolayIT
+\par \hich\af31506\dbch\af31505\loch\f31506 /
+\par \hich\af31506\dbch\af31505\loch\f31506 PressCenters.com
+\par \hich\af31506\dbch\af31505\loch\f31506 Public
+\par \hich\af31506\dbch\af31505\loch\f31506 Code
+\par \hich\af31506\dbch\af31505\loch\f31506 Issues
+\par \hich\af31506\dbch\af31505\loch\f31506 36
+\par \hich\af31506\dbch\af31505\loch\f31506 Pull requests
+\par \hich\af31506\dbch\af31505\loch\f31506 Actions
+\par \hich\af31506\dbch\af31505\loch\f31506 Projects
+\par \hich\af31506\dbch\af31505\loch\f31506 1
+\par \hich\af31506\dbch\af31505\loch\f31506 Security
+\par \hich\af31506\dbch\af31505\loch\f31506 Insights
+\par \hich\af31506\dbch\af31505\loch\f31506 PressCenters.com/src/.gitignore
+\par \hich\af31506\dbch\af31505\loch\f31506 @NikolayIT
+\par \hich\af31506\dbch\af31505\loch\f31506 NikolayIT NuGet packages updated
+\par \hich\af31506\dbch\af31505\loch\f31506 Latest commit 05561d2 on Apr 11, 2019
+\par \hich\af31506\dbch\af31505\loch\f31506  History
+\par \hich\af31506\dbch\af31505\loch\f31506  1 contributor
+\par \hich\af31506\dbch\af31505\loch\f31506 346 lines (278 sloc)  5.8 KB
+\par \hich\af31506\dbch\af31505\loch\f31506    
+\par \hich\af31506\dbch\af31505\loch\f31506 ## Ignore Visual Studio temporary files, build results, and
+\par \hich\af31506\dbch\af31505\loch\f31506 ## files generated by popular Visual Studio add-ons.
+\par \hich\af31506\dbch\af31505\loch\f31506 ##
+\par \hich\af31506\dbch\af31505\loch\f31506 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # User-specific files
+\par \hich\af31506\dbch\af31505\loch\f31506 *.rsuser
+\par \hich\af31506\dbch\af31505\loch\f31506 *.suo
+\par \hich\af31506\dbch\af31505\loch\f31506 *.user
+\par \hich\af31506\dbch\af31505\loch\f31506 *.userosscache
+\par \hich\af31506\dbch\af31505\loch\f31506 *.sln.docstates
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # User-specific files (MonoDevelop/Xamarin Studio)
+\par \hich\af31506\dbch\af31505\loch\f31506 *.userprefs
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Build results
+\par \hich\af31506\dbch\af31505\loch\f31506 [Dd]ebug/
+\par \hich\af31506\dbch\af31505\loch\f31506 [Dd]ebugPublic/
+\par \hich\af31506\dbch\af31505\loch\f31506 [Rr]elease/
+\par \hich\af31506\dbch\af31505\loch\f31506 [Rr]eleases/
+\par \hich\af31506\dbch\af31505\loch\f31506 x64/
+\par \hich\af31506\dbch\af31505\loch\f31506 x86/
+\par \hich\af31506\dbch\af31505\loch\f31506 [Aa][Rr][Mm]/
+\par \hich\af31506\dbch\af31505\loch\f31506 [Aa][Rr][Mm]64/
+\par \hich\af31506\dbch\af31505\loch\f31506 bld/
+\par \hich\af31506\dbch\af31505\loch\f31506 [Bb]in/
+\par \hich\af31506\dbch\af31505\loch\f31506 [Oo]bj/
+\par \hich\af31506\dbch\af31505\loch\f31506 [Ll]og/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Visual Studio 2015/2017 cache/options directory
+\par \hich\af31506\dbch\af31505\loch\f31506 .vs/
+\par \hich\af31506\dbch\af31505\loch\f31506 # Uncomment if you have tasks that create the project's static files in wwwroot
+\par \hich\af31506\dbch\af31505\loch\f31506 #wwwroot/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Visual Studio 2017 auto generated files
+\par \hich\af31506\dbch\af31505\loch\f31506 Generated\\ Files/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # MSTest test Results
+\par \hich\af31506\dbch\af31505\loch\f31506 [Tt]est[Rr]esult*/
+\par \hich\af31506\dbch\af31505\loch\f31506 [Bb]uild[Ll]og.*
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # NUNIT
+\par \hich\af31506\dbch\af31505\loch\f31506 *.VisualState.xml
+\par \hich\af31506\dbch\af31505\loch\f31506 TestResult.xml
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Build Results of an ATL Project
+\par \hich\af31506\dbch\af31505\loch\f31506 [Dd]ebugPS/
+\par \hich\af31506\dbch\af31505\loch\f31506 [Rr]eleasePS/
+\par \hich\af31506\dbch\af31505\loch\f31506 dlldata.c
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Benchmark \hich\af31506\dbch\af31505\loch\f31506 Results
+\par \hich\af31506\dbch\af31505\loch\f31506 BenchmarkDotNet.Artifacts/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # .NET Core
+\par \hich\af31506\dbch\af31505\loch\f31506 project.lock.json
+\par \hich\af31506\dbch\af31505\loch\f31506 project.fragment.lock.json
+\par \hich\af31506\dbch\af31505\loch\f31506 artifacts/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # StyleCop
+\par \hich\af31506\dbch\af31505\loch\f31506 StyleCopReport.xml
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Files built by Visual Studio
+\par \hich\af31506\dbch\af31505\loch\f31506 *_i.c
+\par \hich\af31506\dbch\af31505\loch\f31506 *_p.c
+\par \hich\af31506\dbch\af31505\loch\f31506 *_h.h
+\par \hich\af31506\dbch\af31505\loch\f31506 *.ilk
+\par \hich\af31506\dbch\af31505\loch\f31506 *.meta
+\par \hich\af31506\dbch\af31505\loch\f31506 *.obj
+\par \hich\af31506\dbch\af31505\loch\f31506 *.iobj
+\par \hich\af31506\dbch\af31505\loch\f31506 *.pch
+\par \hich\af31506\dbch\af31505\loch\f31506 *.pdb
+\par \hich\af31506\dbch\af31505\loch\f31506 *.ipdb
+\par \hich\af31506\dbch\af31505\loch\f31506 *.pgc
+\par \hich\af31506\dbch\af31505\loch\f31506 *.pgd
+\par \hich\af31506\dbch\af31505\loch\f31506 *.rsp
+\par \hich\af31506\dbch\af31505\loch\f31506 *.sbr
+\par \hich\af31506\dbch\af31505\loch\f31506 *.tlb
+\par \hich\af31506\dbch\af31505\loch\f31506 *.tli
+\par \hich\af31506\dbch\af31505\loch\f31506 *.tlh
+\par \hich\af31506\dbch\af31505\loch\f31506 *.tmp
+\par \hich\af31506\dbch\af31505\loch\f31506 *.tmp_proj
+\par \hich\af31506\dbch\af31505\loch\f31506 *_wpftmp.csproj
+\par \hich\af31506\dbch\af31505\loch\f31506 *.log
+\par \hich\af31506\dbch\af31505\loch\f31506 *.vspscc
+\par \hich\af31506\dbch\af31505\loch\f31506 *.vssscc
+\par \hich\af31506\dbch\af31505\loch\f31506 .builds
+\par \hich\af31506\dbch\af31505\loch\f31506 *.pidb
+\par \hich\af31506\dbch\af31505\loch\f31506 *.svclog
+\par \hich\af31506\dbch\af31505\loch\f31506 *.scc
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Chutzpah Test files
+\par \hich\af31506\dbch\af31505\loch\f31506 _Chutzpah*
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Visual C++ cache files
+\par \hich\af31506\dbch\af31505\loch\f31506 ipch/
+\par \hich\af31506\dbch\af31505\loch\f31506 *.aps
+\par \hich\af31506\dbch\af31505\loch\f31506 *.ncb
+\par \hich\af31506\dbch\af31505\loch\f31506 *.opendb
+\par \hich\af31506\dbch\af31505\loch\f31506 *.opensdf
+\par \hich\af31506\dbch\af31505\loch\f31506 *.sdf
+\par \hich\af31506\dbch\af31505\loch\f31506 *.cachefile
+\par \hich\af31506\dbch\af31505\loch\f31506 *.VC.db
+\par \hich\af31506\dbch\af31505\loch\f31506 *.VC.VC.opendb
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Visual Studio profiler
+\par \hich\af31506\dbch\af31505\loch\f31506 *.psess
+\par \hich\af31506\dbch\af31505\loch\f31506 *.vsp
+\par \hich\af31506\dbch\af31505\loch\f31506 *.vspx
+\par \hich\af31506\dbch\af31505\loch\f31506 *.sap
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Visual Studio Trace Files
+\par \hich\af31506\dbch\af31505\loch\f31506 *.e2e
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # TFS 2012 Local Workspace
+\par \hich\af31506\dbch\af31505\loch\f31506 $tf/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Guidance Automation Toolkit
+\par \hich\af31506\dbch\af31505\loch\f31506 *.gpState
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # ReSharper is a .NET coding add-in
+\par \hich\af31506\dbch\af31505\loch\f31506 _ReSharper*/
+\par \hich\af31506\dbch\af31505\loch\f31506 *.[Rr]e[Ss]harper
+\par \hich\af31506\dbch\af31505\loch\f31506 *.DotSettings.user
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # JustCode is a .NET coding add-in
+\par \hich\af31506\dbch\af31505\loch\f31506 .JustCode
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # TeamCity is a build add-in
+\par \hich\af31506\dbch\af31505\loch\f31506 _TeamCity*
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # DotCover is a Code Coverage Tool
+\par \hich\af31506\dbch\af31505\loch\f31506 *.dotCover
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # AxoCover is a Code Coverage Tool
+\par \hich\af31506\dbch\af31505\loch\f31506 .axoCover/*
+\par \hich\af31506\dbch\af31505\loch\f31506 !.axoCover/settings.json
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Visual Studio code coverage results
+\par \hich\af31506\dbch\af31505\loch\f31506 *.coverage
+\par \hich\af31506\dbch\af31505\loch\f31506 *.coveragexml
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # NCrunch
+\par \hich\af31506\dbch\af31505\loch\f31506 _NCrunch_*
+\par \hich\af31506\dbch\af31505\loch\f31506 .*crunch*.local.xml
+\par \hich\af31506\dbch\af31505\loch\f31506 nCrunchTemp_*
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # MightyMoose
+\par \hich\af31506\dbch\af31505\loch\f31506 *.mm.*
+\par \hich\af31506\dbch\af31505\loch\f31506 AutoTest.Net/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Web workbench (sass)
+\par \hich\af31506\dbch\af31505\loch\f31506 .sass-cache/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Installshield output folder
+\par \hich\af31506\dbch\af31505\loch\f31506 [Ee]xpress/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # DocProject is a documentation generator add-in
+\par \hich\af31506\dbch\af31505\loch\f31506 DocProject/buildhelp/
+\par \hich\af31506\dbch\af31505\loch\f31506 DocProject/Help/*.HxT
+\par \hich\af31506\dbch\af31505\loch\f31506 DocProject/Help/*.HxC
+\par \hich\af31506\dbch\af31505\loch\f31506 DocProject/Help/*.hhc
+\par \hich\af31506\dbch\af31505\loch\f31506 DocProject/Help/*.hhk
+\par \hich\af31506\dbch\af31505\loch\f31506 DocProject/Help/*.hhp
+\par \hich\af31506\dbch\af31505\loch\f31506 DocProject/Help/Html2
+\par \hich\af31506\dbch\af31505\loch\f31506 DocProject/Help/html
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Click-Once directory
+\par \hich\af31506\dbch\af31505\loch\f31506 publish/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Publish Web Output
+\par \hich\af31506\dbch\af31505\loch\f31506 *.[Pp]ublish.xml
+\par \hich\af31506\dbch\af31505\loch\f31506 *.azurePu\hich\af31506\dbch\af31505\loch\f31506 bxml
+\par \hich\af31506\dbch\af31505\loch\f31506 # Note: Comment the next line if you want to checkin your web deploy settings,
+\par \hich\af31506\dbch\af31505\loch\f31506 # but database connection strings (with potential passwords) will be unencrypted
+\par \hich\af31506\dbch\af31505\loch\f31506 *.pubxml
+\par \hich\af31506\dbch\af31505\loch\f31506 *.publishproj
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Microsoft Azure Web App publish settings. Comment the next line if you want to
+\par \hich\af31506\dbch\af31505\loch\f31506 # checkin your Azure Web App publish settings, but sensitive information contained
+\par \hich\af31506\dbch\af31505\loch\f31506 # in these scripts will be unencrypted
+\par \hich\af31506\dbch\af31505\loch\f31506 PublishScripts/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # NuGet Packages
+\par \hich\af31506\dbch\af31505\loch\f31506 *.nupkg
+\par \hich\af31506\dbch\af31505\loch\f31506 # The packa\hich\af31506\dbch\af31505\loch\f31506 ges folder can be ignored because of Package Restore
+\par \hich\af31506\dbch\af31505\loch\f31506 **/[Pp]ackages/*
+\par \hich\af31506\dbch\af31505\loch\f31506 # except build/, which is used as an MSBuild target.
+\par \hich\af31506\dbch\af31505\loch\f31506 !**/[Pp]ackages/build/
+\par \hich\af31506\dbch\af31505\loch\f31506 # Uncomment if necessary however generally it will be regenerated when needed
+\par \hich\af31506\dbch\af31505\loch\f31506 #!**/[Pp]ackages/repositories.co\hich\af31506\dbch\af31505\loch\f31506 nfig
+\par \hich\af31506\dbch\af31505\loch\f31506 # NuGet v3's project.json files produces more ignorable files
+\par \hich\af31506\dbch\af31505\loch\f31506 *.nuget.props
+\par \hich\af31506\dbch\af31505\loch\f31506 *.nuget.targets
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Microsoft Azure Build Output
+\par \hich\af31506\dbch\af31505\loch\f31506 csx/
+\par \hich\af31506\dbch\af31505\loch\f31506 *.build.csdef
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Microsoft Azure Emulator
+\par \hich\af31506\dbch\af31505\loch\f31506 ecf/
+\par \hich\af31506\dbch\af31505\loch\f31506 rcf/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Windows Store app package directories and files
+\par \hich\af31506\dbch\af31505\loch\f31506 AppPackages/
+\par \hich\af31506\dbch\af31505\loch\f31506 BundleArtifacts/
+\par \hich\af31506\dbch\af31505\loch\f31506 Package.StoreAssociation.xml
+\par \hich\af31506\dbch\af31505\loch\f31506 _pkginfo.txt
+\par \hich\af31506\dbch\af31505\loch\f31506 *.appx
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Visual Studio cache files
+\par \hich\af31506\dbch\af31505\loch\f31506 # files ending in .cache can be ignored
+\par \hich\af31506\dbch\af31505\loch\f31506 *.[Cc]ache
+\par \hich\af31506\dbch\af31505\loch\f31506 # but keep track of directories ending in .cache
+\par \hich\af31506\dbch\af31505\loch\f31506 !?*.[Cc]ache/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Others
+\par \hich\af31506\dbch\af31505\loch\f31506 ClientBin/
+\par \hich\af31506\dbch\af31505\loch\f31506 ~$*
+\par \hich\af31506\dbch\af31505\loch\f31506 *~
+\par \hich\af31506\dbch\af31505\loch\f31506 *.dbmdl
+\par \hich\af31506\dbch\af31505\loch\f31506 *.dbproj.sc\hich\af31506\dbch\af31505\loch\f31506 hemaview
+\par \hich\af31506\dbch\af31505\loch\f31506 *.jfm
+\par \hich\af31506\dbch\af31505\loch\f31506 *.pfx
+\par \hich\af31506\dbch\af31505\loch\f31506 *.publishsettings
+\par \hich\af31506\dbch\af31505\loch\f31506 orleans.codegen.cs
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Including strong name files can present a security risk
+\par \hich\af31506\dbch\af31505\loch\f31506 # (https://github.com/github/gitignore/pull/2483#issue-259490424)
+\par \hich\af31506\dbch\af31505\loch\f31506 #*.snk
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Since there are multiple workflows, uncomment next line to igno\hich\af31506\dbch\af31505\loch\f31506 re bower_components
+\par \hich\af31506\dbch\af31505\loch\f31506 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+\par \hich\af31506\dbch\af31505\loch\f31506 #bower_components/
+\par \hich\af31506\dbch\af31505\loch\f31506 # ASP.NET Core default setup: bower directory is configured as wwwroot/lib/ and bower restore is true
+\par \hich\af31506\dbch\af31505\loch\f31506 **/wwwroot/lib/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # RIA/Silverlight projects
+\par \hich\af31506\dbch\af31505\loch\f31506 Generated_Code/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Backup & report files from converting an old project file
+\par \hich\af31506\dbch\af31505\loch\f31506 # to a newer Visual Studio version. Backup files are not needed,
+\par \hich\af31506\dbch\af31505\loch\f31506 # because we have git ;-)
+\par \hich\af31506\dbch\af31505\loch\f31506 _UpgradeReport_Files/
+\par \hich\af31506\dbch\af31505\loch\f31506 Backup*/
+\par \hich\af31506\dbch\af31505\loch\f31506 UpgradeLog*.XML
+\par \hich\af31506\dbch\af31505\loch\f31506 UpgradeLog*.ht\hich\af31506\dbch\af31505\loch\f31506 m
+\par \hich\af31506\dbch\af31505\loch\f31506 ServiceFabricBackup/
+\par \hich\af31506\dbch\af31505\loch\f31506 *.rptproj.bak
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # SQL Server files
+\par \hich\af31506\dbch\af31505\loch\f31506 *.mdf
+\par \hich\af31506\dbch\af31505\loch\f31506 *.ldf
+\par \hich\af31506\dbch\af31505\loch\f31506 *.ndf
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Business Intelligence projects
+\par \hich\af31506\dbch\af31505\loch\f31506 *.rdl.data
+\par \hich\af31506\dbch\af31505\loch\f31506 *.bim.layout
+\par \hich\af31506\dbch\af31505\loch\f31506 *.bim_*.settings
+\par \hich\af31506\dbch\af31505\loch\f31506 *.rptproj.rsuser
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Microsoft Fakes
+\par \hich\af31506\dbch\af31505\loch\f31506 FakesAssemblies/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # GhostDoc plugin setting file
+\par \hich\af31506\dbch\af31505\loch\f31506 *.GhostDoc.xml
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Node.js Tools for Visual Studio
+\par \hich\af31506\dbch\af31505\loch\f31506 .ntvs_analysis.dat
+\par \hich\af31506\dbch\af31505\loch\f31506 node_modules/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Visual Studio 6 build log
+\par \hich\af31506\dbch\af31505\loch\f31506 *.plg
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Visual Studio 6 workspace options file
+\par \hich\af31506\dbch\af31505\loch\f31506 *.opt
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
+\par \hich\af31506\dbch\af31505\loch\f31506 *.vbw
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Visual Stu\hich\af31506\dbch\af31505\loch\f31506 dio LightSwitch build output
+\par \hich\af31506\dbch\af31505\loch\f31506 **/*.HTMLClient/GeneratedArtifacts
+\par \hich\af31506\dbch\af31505\loch\f31506 **/*.DesktopClient/GeneratedArtifacts
+\par \hich\af31506\dbch\af31505\loch\f31506 **/*.DesktopClient/ModelManifest.xml
+\par \hich\af31506\dbch\af31505\loch\f31506 **/*.Server/GeneratedArtifacts
+\par \hich\af31506\dbch\af31505\loch\f31506 **/*.Server/ModelManifest.xml
+\par \hich\af31506\dbch\af31505\loch\f31506 _Pvt_Extensions
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Paket dependency manager
+\par \hich\af31506\dbch\af31505\loch\f31506 .paket/paket\hich\af31506\dbch\af31505\loch\f31506 .exe
+\par \hich\af31506\dbch\af31505\loch\f31506 paket-files/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # FAKE - F# Make
+\par \hich\af31506\dbch\af31505\loch\f31506 .fake/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # JetBrains Rider
+\par \hich\af31506\dbch\af31505\loch\f31506 .idea/
+\par \hich\af31506\dbch\af31505\loch\f31506 *.sln.iml
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # CodeRush personal settings
+\par \hich\af31506\dbch\af31505\loch\f31506 .cr/personal
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Python Tools for Visual Studio (PTVS)
+\par \hich\af31506\dbch\af31505\loch\f31506 __pycache__/
+\par \hich\af31506\dbch\af31505\loch\f31506 *.pyc
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Cake - Uncomment if you are using it
+\par \hich\af31506\dbch\af31505\loch\f31506 # tools/**
+\par \hich\af31506\dbch\af31505\loch\f31506 # !tools/packages.config
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Tabs Studio
+\par \hich\af31506\dbch\af31505\loch\f31506 *.tss
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Telerik's JustMock configuration file
+\par \hich\af31506\dbch\af31505\loch\f31506 *.jmconfig
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # BizTalk build output
+\par \hich\af31506\dbch\af31505\loch\f31506 *.btp.cs
+\par \hich\af31506\dbch\af31505\loch\f31506 *.btm.cs
+\par \hich\af31506\dbch\af31505\loch\f31506 *.odx.cs
+\par \hich\af31506\dbch\af31505\loch\f31506 *.xsd.cs
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # OpenCover UI analysis results
+\par \hich\af31506\dbch\af31505\loch\f31506 OpenCover/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Azure Stream Analytics local run output
+\par \hich\af31506\dbch\af31505\loch\f31506 ASALocalRun/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # MSBuild Binary and Structured Log
+\par \hich\af31506\dbch\af31505\loch\f31506 *.binlog
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # NVidia Nsight GPU debugger configuration file
+\par \hich\af31506\dbch\af31505\loch\f31506 *.nvuser
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # MFractors (Xamarin productivity tool) working folder
+\par \hich\af31506\dbch\af31505\loch\f31506 .mfractor/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Local History for Visual Studio
+\par \hich\af31506\dbch\af31505\loch\f31506 .localhistory/
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # BeatPulse healthche\hich\af31506\dbch\af31505\loch\f31506 ck temp database 
+\par \hich\af31506\dbch\af31505\loch\f31506 healthchecksdb
+\par 
+\par \hich\af31506\dbch\af31505\loch\f31506 # Custom ignores
+\par \hich\af31506\dbch\af31505\loch\f31506 /Web/PressCenters.Web/appsettings.Production.json
+\par \hich\af31506\dbch\af31505\loch\f31506 *.min.css
+\par \hich\af31506\dbch\af31505\loch\f31506 *.min.js
+\par \loch\af31506\dbch\af31505\hich\f31506 \'a9\loch\f31506  2022 GitHub, Inc.
+\par \hich\af31506\dbch\af31505\loch\f31506 Terms
+\par \hich\af31506\dbch\af31505\loch\f31506 Privacy
+\par \hich\af31506\dbch\af31505\loch\f31506 Security
+\par \hich\af31506\dbch\af31505\loch\f31506 Status
+\par \hich\af31506\dbch\af31505\loch\f31506 Docs
+\par \hich\af31506\dbch\af31505\loch\f31506 Contact GitHub
+\par \hich\af31506\dbch\af31505\loch\f31506 Pricing
+\par \hich\af31506\dbch\af31505\loch\f31506 API
+\par \hich\af31506\dbch\af31505\loch\f31506 Training
+\par \hich\af31506\dbch\af31505\loch\f31506 Blog
+\par \hich\af31506\dbch\af31505\loch\f31506 About
+\par \hich\af31506\dbch\af31505\loch\f31506 Loading complete}{\rtlch\fcs1 \af31507 \ltrch\fcs0 \insrsid8587537 
+\par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
+9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
+5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
+b01d583deee5f99824e290b4ba3f364eac4a430883b3c092d4eca8f946c916422ecab927f52ea42b89a1cd59c254f919b0e85e6535d135a8de20f20b8c12c3b0
+0c895fcf6720192de6bf3b9e89ecdbd6596cbcdd8eb28e7c365ecc4ec1ff1460f53fe813d3cc7f5b7f020000ffff0300504b030414000600080000002100a5d6
+a7e7c0000000360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4f
+c7060abb0884a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b6309512
+0f88d94fbc52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462
+a1a82fe353bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f746865
+6d652f7468656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b
+4b0d592c9c070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b
+4757e8d3f729e245eb2b260a0238fd010000ffff0300504b03041400060008000000210025b0cde6ae070000d4200000160000007468656d652f7468656d652f
+7468656d65312e786d6cec595f8b1bc9117f0fe43b0cf32eebdf8cfe2c960f692479cfdeb58d253bdc63afd49a696fcfb4986eed5a1c86e07bca4be0e02ee421
+17425eeee10831e4428e9090afb0dfc160935c3e44aa7b4633dd52cbde5d7c60c2ae609969fdaafad755d555a5eedb9f3c8fa97386534e58d273ebb76aae8393
+199b9324ecb94fa6e34ac775b840c91c5196e09ebbc6dcfde4cecf7f761b1d8808c7d801f9841fa09e1b09b13ca856f90c8611bfc5963881ef162c8d9180d734
+acce53740e7a635a6dd46aad6a8c48e23a098a41edc51f2ffe7af18f8b57cec53fe1dfc3c582ccb07b6733c988c24c89e0726046d3899c026f247f5f82e7a775
+09e16b1ed0d43943b4e7c28473763ec5cf85eb50c4057cd1736beacfaddeb95d4507b910157b6435b9b1facbe57281f96943cd998627c5a49ee77bad7ea15f01
+a8d8c58ddaa3d6a855e85300349bc152332eba4e7fd01d0cfd1cab81b2478bee617bd8ac1b784d7f738773df971f03af40997e6f073f1e07604503af4019dedf
+c17b5ebb1178065e81327c6b07dfaef5875edbc02b50444972ba83aef9ad66b0596d0159307a6885777d6fdc6ee4ca4b144443115e728a054bc4de608bd13396
+8e0121911409923862bdc40b3483780e10252729718e481841e42d51c2380cd71ab571ad09ffe5c7534fca24e800234d5a12032a7c67481272f82c254bd173ef
+81565783bcf9e187d72fbf7ffdf26fafbff8e2f5cb3fe7732b5586dc214a425deec76fbffcef37bf74fef3973ffcf8d5d7d9d4db78aee3dffee9576ffffeaf77
+a9871597a678f39b576fbf7ff5e6b7bffef7775f59b4f75374a2c3a724c6dc7980cf9dc72c86055af8e393f46a12d308115da29f841c2548ce62d13f1291817e
+b046145970036cdaf1690ab9c606bcbb7a66109e44e94a108bc6fb516c008f19a303965aad705fcea59979ba4a42fbe4e94ac73d46e8cc36778012c3cba3d512
+b22cb1a90c226cd07c4451225088132c1cf91d3bc5d8b2bacf0831ec7a4c6629e36c219ccf883340c46a92293931a2a9143a2431f8656d2308fe366c73fcd419
+306a5bf5109f9948d81b885ac84f3135cc7817ad048a6d2aa728a6bac18f90886c2427eb74a6e3465c80a7434c99339a63ce6d320f5358afe6f4fb9066ec6e3f
+a6ebd844a6829cda741e21c674e4909d06118a9736ec8424918efd949f428822e7111336f8313377887c073fa064afbb9f126cb8fbfdd9e00964589d521920f2
+9b556af1e55dcc8cf89dace902615baae9a7b19162fb29b146c760151aa17d843145e7688eb1f3e4530b83015b1a362f49df8b20ab1c625b60dd4366accaf704
+73eca8ee66374f1e116e84ec04876c0f9fe3f556e259a32446e93ecd0fc0ebbacd4750ea625b003ca4b3531df880403708f16235ca430e3ab4e0deabf551848c
+0226dfb93d5ed7a9e1bfcbec31d897cf0c1a97d8972083af2c03895d9779a76da6881a1394013345d065d8d22d8818ee2f45647155622babdcc2dcb4a51ba03d
+329a9e9824efed80b67a1fffa7eb7da0c378f3bb6f2c9bedc3f43b76c546b2ba62a7b32f991c6ef537fb70db5d4dc0d239f9f89b9a215a258f30d491dd8c75d3
+d3dcf434eeff7d4fb36f3fdf7432fbfa8d9b4ec6850ee3a693c90f573e4c2753362fd0d7c8038feca4479dfbc4fb8f7d1684d28958537cc4d5c90f871f34f331
+0c4a4175f8898b73c065048fb2cec10c062e4c91927152267e41443489d0128e87eaae5412f25c75c89d25e3706aa486adba259eaee26336cf8e3beb7579b499
+95568e44395ef38b7138a91219bad52e8ff00af58a6da8ce5a3704a4ec5548689399249a1612edcda034923ad905a35948a8957d10165d0b8b8e54bf71d50e0b
+a05678057e713bf03bbde7fa1e8880101cc841773e977eca5cbdf1ae72e687f4f43e631a11001df626024a4f7725d7bdcb93abcb42ed129e364868e166925096
+511d1e8fe077701e9d72f43234aeeaeb6ee952839e34859a0f42aba4d1eebc8bc5757d0d72dbb981267aa6a08973de735b4d1f426686963d7701a7c6f0182f21
+76b8fcd185680897303391661bfe3a9965997231443cca0cae924e960d622270ea5012f75cb9fcc20d3451394471ab3720217cb4e4ba90563e3672e074d3c978
+b1c033a1bb5d1b9196ce5e21c367b9c2faad12bf3e584ab215b87b12cdcf9d13ba4a1f230831bf5d97069c130e9707f5cc9a7302d76145222be36fab30e56957
+bf8f5231948d23ba8c505e51f4649ec1552a2fe8a8b7c206da5bbe6630a86692bc109e84b2c0ea4635aa695135320e7babeefb85a4e5b4a459d64c23abc8aa69
+cf62c60c9b32b065cbeb15798dd5c6c490d3f40a9fa5eeed94dbdde4baad3ea1a81260f0c27e96aa7b8982a0512b2733a849c6bb6958e6ec7cd4ac1d9b05be87
+da658a8496f55b1bb55b762b6a84753a18bc56e507b9eda885a1c5a6b154965617e8fadd363b7906c963086dee8a0aae5c0917d729828668a27a922c6dc01679
+2ef2ad014fce2a253df7f39adff782861f546a1d7f54f19a5eadd2f1fbcd4adff79bf5915faf0d078d1750584414d7fdecf27e0c3718749d5fe1abf19d6bfc78
+7349736bc6e22a5377ed55455c5de3d71bc6357e7671ef4ce5fdbceb10483a9fb71ae36eb33b6855bacdfeb8e20d079d4a37680d2ac356d01e8e8781dfe98e5f
+b8ce99027bfd66e0b5469d4aab1e0415af5593f43bdd4adb6b34fa5ebbdf1979fd17791b032bcfd2476e0b30afe275e77f000000ffff0300504b030414000600
+0800000021000dd1909fb60000001b010000270000007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d
+0ac2301484f78277086f6fd3ba109126dd88d0add40384e4350d363f2451eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec
+8e4052164e89d93b64b060828e6f37ed1567914b284d262452282e3198720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524
+bd62107bd5001996509affb3fd381a89672f1f165dfe514173d9850528a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000
+002100e9de0fbfff0000001c0200001300000000000000000000000000000000005b436f6e74656e745f54797065735d2e786d6c504b01022d00140006000800
+00002100a5d6a7e7c0000000360100000b00000000000000000000000000300100005f72656c732f2e72656c73504b01022d00140006000800000021006b7996
+16830000008a0000001c00000000000000000000000000190200007468656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d00140006
+0008000000210025b0cde6ae070000d42000001600000000000000000000000000d60200007468656d652f7468656d652f7468656d65312e786d6c504b01022d
+00140006000800000021000dd1909fb60000001b0100002700000000000000000000000000b80a00007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d010000b30b00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax372\lsdlockeddef0\lsdsemihiddendef0\lsdunhideuseddef0\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 2;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 3;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 6;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 7;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 8;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 5;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 9;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 1;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 2;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 4;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 5;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 7;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 8;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Indent;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 header;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footer;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index heading;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority35 \lsdlocked0 caption;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of figures;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope return;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation reference;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 line number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 page number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote text;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of authorities;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 macro;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 toa heading;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 5;\lsdqformat1 \lsdpriority10 \lsdlocked0 Title;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Closing;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Signature;\lsdsemihidden1 \lsdunhideused1 \lsdpriority1 \lsdlocked0 Default Paragraph Font;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Message Header;\lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Salutation;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Date;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Note Heading;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Block Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Hyperlink;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 FollowedHyperlink;\lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;
+\lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Document Map;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Plain Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 E-mail Signature;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Top of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Bottom of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal (Web);\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Acronym;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Cite;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Code;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Definition;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Keyboard;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Preformatted;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Sample;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Typewriter;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Variable;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Table;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation subject;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 No List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Contemporary;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Elegant;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Professional;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Subtle 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Subtle 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Balloon Text;\lsdpriority39 \lsdlocked0 Table Grid;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Theme;\lsdsemihidden1 \lsdlocked0 Placeholder Text;
+\lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;\lsdpriority60 \lsdlocked0 Light Shading;\lsdpriority61 \lsdlocked0 Light List;\lsdpriority62 \lsdlocked0 Light Grid;\lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdpriority64 \lsdlocked0 Medium Shading 2;
+\lsdpriority65 \lsdlocked0 Medium List 1;\lsdpriority66 \lsdlocked0 Medium List 2;\lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdpriority68 \lsdlocked0 Medium Grid 2;\lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdpriority70 \lsdlocked0 Dark List;
+\lsdpriority71 \lsdlocked0 Colorful Shading;\lsdpriority72 \lsdlocked0 Colorful List;\lsdpriority73 \lsdlocked0 Colorful Grid;\lsdpriority60 \lsdlocked0 Light Shading Accent 1;\lsdpriority61 \lsdlocked0 Light List Accent 1;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;\lsdsemihidden1 \lsdlocked0 Revision;
+\lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;
+\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;\lsdpriority72 \lsdlocked0 Colorful List Accent 1;
+\lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdpriority60 \lsdlocked0 Light Shading Accent 2;\lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdpriority62 \lsdlocked0 Light Grid Accent 2;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;
+\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;
+\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;\lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;\lsdpriority72 \lsdlocked0 Colorful List Accent 2;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;
+\lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdpriority61 \lsdlocked0 Light List Accent 3;\lsdpriority62 \lsdlocked0 Light Grid Accent 3;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;
+\lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;
+\lsdpriority70 \lsdlocked0 Dark List Accent 3;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;\lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;\lsdpriority60 \lsdlocked0 Light Shading Accent 4;
+\lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdpriority62 \lsdlocked0 Light Grid Accent 4;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;
+\lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdpriority70 \lsdlocked0 Dark List Accent 4;
+\lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;\lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdpriority60 \lsdlocked0 Light Shading Accent 5;\lsdpriority61 \lsdlocked0 Light List Accent 5;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 5;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;\lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 5;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdpriority61 \lsdlocked0 Light List Accent 6;\lsdpriority62 \lsdlocked0 Light Grid Accent 6;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdpriority70 \lsdlocked0 Dark List Accent 6;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;\lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;\lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdsemihidden1 \lsdunhideused1 \lsdpriority37 \lsdlocked0 Bibliography;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;\lsdpriority41 \lsdlocked0 Plain Table 1;\lsdpriority42 \lsdlocked0 Plain Table 2;\lsdpriority43 \lsdlocked0 Plain Table 3;\lsdpriority44 \lsdlocked0 Plain Table 4;
+\lsdpriority45 \lsdlocked0 Plain Table 5;\lsdpriority40 \lsdlocked0 Grid Table Light;\lsdpriority46 \lsdlocked0 Grid Table 1 Light;\lsdpriority47 \lsdlocked0 Grid Table 2;\lsdpriority48 \lsdlocked0 Grid Table 3;\lsdpriority49 \lsdlocked0 Grid Table 4;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 1;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 1;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 1;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 1;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 1;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 2;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 2;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 2;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 2;
+\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 3;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 3;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 3;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 3;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 3;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 4;
+\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 4;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 4;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 4;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 4;
+\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 4;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 5;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 5;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 5;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 5;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 5;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 6;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 6;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 6;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 6;
+\lsdpriority46 \lsdlocked0 List Table 1 Light;\lsdpriority47 \lsdlocked0 List Table 2;\lsdpriority48 \lsdlocked0 List Table 3;\lsdpriority49 \lsdlocked0 List Table 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful;\lsdpriority52 \lsdlocked0 List Table 7 Colorful;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 List Table 2 Accent 1;\lsdpriority48 \lsdlocked0 List Table 3 Accent 1;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 1;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 1;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 1;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 List Table 2 Accent 2;\lsdpriority48 \lsdlocked0 List Table 3 Accent 2;\lsdpriority49 \lsdlocked0 List Table 4 Accent 2;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 2;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 3;
+\lsdpriority47 \lsdlocked0 List Table 2 Accent 3;\lsdpriority48 \lsdlocked0 List Table 3 Accent 3;\lsdpriority49 \lsdlocked0 List Table 4 Accent 3;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 3;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 4;\lsdpriority47 \lsdlocked0 List Table 2 Accent 4;
+\lsdpriority48 \lsdlocked0 List Table 3 Accent 4;\lsdpriority49 \lsdlocked0 List Table 4 Accent 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 4;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 4;
+\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 List Table 2 Accent 5;\lsdpriority48 \lsdlocked0 List Table 3 Accent 5;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 5;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 5;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 5;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 List Table 2 Accent 6;\lsdpriority48 \lsdlocked0 List Table 3 Accent 6;\lsdpriority49 \lsdlocked0 List Table 4 Accent 6;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Mention;}}{\*\datastore 0105000002000000
+180000004d73786d6c322e534158584d4c5265616465722e362e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e500000000000000000000000030a6
+e2e66714d801feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}
